@@ -25,7 +25,7 @@ function getRectangleCorners (a, b, point) {
     y: point2.y - b
   }
   // and return them as an array of points
-  return [point3, point2, point1, point]
+  return [point, point3, point2, point1]
 }
 
 module.exports = getRectangleCorners

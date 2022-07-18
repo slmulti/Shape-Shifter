@@ -7,7 +7,7 @@ const rectangleArea = require('./rectangleArea')
  */
 
 function triangleArea(a, b) {
-  return rectangleArea / 2
+  return (b * a)/2
 }
 
 module.exports = triangleArea
